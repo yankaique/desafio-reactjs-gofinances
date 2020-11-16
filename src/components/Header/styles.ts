@@ -33,4 +33,9 @@ export const Container = styled.div<ContainerProps>`
       }
     }
   }
+  .menu-focus:focus{
+          color: #fff;
+          font-weight: bold;
+          border-bottom: 5px solid orange;
+        }
 `;
